@@ -1,16 +1,16 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>Analyzing Network Traffic with TCPDump</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Project consists of a few simple tcpdump commands, and an intro into wireshark. In this project I learned how to analyze network packets, and the different ways to display the data.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Tcpdump</b> 
+- <b>Wireshark</b>
+- <b>Windows Terminal</b>
 
 <h2>Environments Used </h2>
 
@@ -19,8 +19,8 @@ Project consists of a simple PowerShell script that walks the user through "zero
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open Windows Terminal: <br/>
+<img src="https://imgur.com/a/IMCLMwO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
